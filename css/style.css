@@ -1,0 +1,137 @@
+:root {
+  --primary-text-color: #303030;
+  --secondary-text-color: #ffffff;
+  --primary-title-color: rgba(157, 164, 189, 0.6);
+  --accent-color: #ff6c00;
+  --description-text: #9da4db;
+}
+
+body {
+  /* color: var(--primary-color); */
+  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/* Header */
+.header {
+  background-color: #c4c0c0;
+}
+
+/* font-family: 'Open Sans', sans-serif; */
+/* font-family: 'Raleway', sans-serif; */
+.header-logo {
+}
+
+.header-nav {
+}
+
+.header-list {
+}
+
+.header-item {
+}
+
+.header-link {
+  color: var(--secondary-text-color);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
+.header-contact {
+  font-family: 'Open Sans'; /* don't need it - inherit from body  */
+  font-style: normal; /* don't need it - default value  */
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  text-transform: uppercase; /* don't need it - not for numbers  */
+  color: var(--secondary-text-color);
+}
+
+/* we cteated separate (common) class link with hover and focus */
+/* .header-contact:hover,
+.header-contact:focus {
+  color: var(--accent-color);
+} */
+
+.header-btn {
+  font-family: 'Open Sans'; /* don't need it - inherit from body  */
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+}
+
+/* Hero */
+
+.hero {
+  background-color: darkkhaki;
+}
+
+.hero-social {
+}
+
+.social-item {
+}
+
+.social-item-link {
+  color: var(--primary-text-color);
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+}
+
+.hero-pre-title {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  color: var(--primary-title-color);
+}
+
+.hero-title {
+  font-family: Raleway;
+  font-size: 72px;
+  line-height: 1.18;
+  letter-spacing: 0.05em;
+  color: var(--secondary-text-color);
+}
+
+.hero-description {
+  /* font-weight: 400; */
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
